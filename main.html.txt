@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Benvenuta</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="main-page">
+  <nav>
+    <a href="cose-che-amo.html">Cose che amo di te</a>
+    <a href="foto.html">Le nostre foto</a>
+    <a href="contagiorni.html">Contagiorni</a>
+    <a href="lettera.html">Lettera per te</a>
+    <a href="emergenza.html">Emergenza litigio</a>
+    <a href="ricordi.html">Cose che mi fanno pensare a te</a>
+    <a href="tenta-la-fortuna.html">Tenta la fortuna</a>
+  </nav>
+
+  <div class="intro">
+    <img src="img/disegno.jpg" alt="Disegno di noi due" style="max-width:400px; display:block; margin:auto;">
+    <p>
+      Ciao amore, ho creato questo sito per dimostrarti in una maniera diversa quanto ti amo. 
+      Per ogni riga, per ogni foto e per ogni dettaglio in questa pagina c’è il mio tempo e il mio impegno. 
+      Spero davvero che apprezzi questo regalo. Divertiti a sfogliare tutte le pagine. Ti amo &lt;3
+    </p>
+  </div>
+</body>
+</html>

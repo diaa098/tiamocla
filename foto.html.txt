@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Le nostre foto</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+  .grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+    transform: rotate(calc(-5deg + 10deg * var(--i)));
+  }
+</style>
+</head>
+<body class="main-page">
+<h1>Queste sono le nostre foto</h1>
+<p>Forse pensi che non voglio avere o fare foto con te ma ti sbagli. Spesso quando non sei con me e mi manca vederti sfoglio volentieri le nostre foto col sorriso. Dovremmo averne di più.</p>
+<div class="grid">
+  <img src="img/foto1.jpg" style="--i:0;">
+  <img src="img/foto2.jpg" style="--i:1;">
+  <img src="img/foto3.jpg" style="--i:2;">
+  <img src="img/foto4.jpg" style="--i:3;">
+  <!-- aggiungi altre foto -->
+</div>
+</body>
+</html>

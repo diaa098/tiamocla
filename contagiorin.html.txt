@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Contagiorni</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body class="main-page">
+<h1>Oggi stiamo insieme da:</h1>
+<p id="days-count" style="font-size:2em; text-align:center;"></p>
+</body>
+</html>

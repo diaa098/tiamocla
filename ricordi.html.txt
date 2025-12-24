@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Cose che mi fanno pensare a te</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  ul { max-width:600px; margin:auto; }
+  li { margin:8px 0; }
+</style>
+</head>
+<body class="main-page">
+<h1>Cose che mi fanno pensare a te</h1>
+<ul>
+<li>La coperta riscaldata</li>
+<li>I gatti</li>
+<li>Le tartarughe</li>
+<li>L’estate</li>
+<li>Billie Eilish</li>
+<!-- aggiungi tutte le altre -->
+</ul>
+</body>
+</html>
