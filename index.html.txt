@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Codice Segreto</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #8B0000;
+        color: #FFB6C1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: radial-gradient(#FFB6C1 2px, transparent 2px);
+        background-size: 20px 20px;
+    }
+    .container {
+        text-align: center;
+    }
+    input {
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+    }
+    button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    .error {
+        color: #FFB6C1;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Inserire il codice segreto</h1>
+    <input type="password" id="codice" placeholder="Codice...">
+    <br>
+    <button onclick="verificaCodice()">Entra</button>
+    <p class="error" id="error"></p>
+    <p>Indizio: la nostra data</p>
+</div>
+
+<script>
+    function verificaCodice() {
+        const codice = document.getElementById('codice').value;
+        const correct = "16032025";
+        if(codice === correct) {
+            window.location.href = "home.html";
+        } else {
+            document.getElementById('error').innerText = "Codice errato, riprova.";
+        }
+    }
+</script>
+</body>
+</html>

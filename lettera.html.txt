@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lettera per te</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Georgia', serif;
+        background-color: #330000;
+        color: #FFB6C1;
+        padding: 50px;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    p {
+        max-width: 600px;
+        margin: 20px auto;
+        line-height: 1.6;
+        opacity: 0;
+        animation: fadein 5s forwards;
+    }
+    @keyframes fadein {
+        to { opacity: 1; }
+    }
+    .firma {
+        text-align: right;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<h1>Ho creato questa pagina perché spesso non riesco a dire tutto a voce</h1>
+<p>Voglio che tu sappia quanto apprezzo ogni dettaglio di te e ogni tuo gesto. Sei la prima a cui penso quando la giornata va male e sei la prima a cui penso quando la giornata va bene. La cosa che mi piace tantissimo di te è che mi fai sempre sentire bene non mi giudichi mai e riesci sempre a fare/dire la cosa giusta.</p>
+<p>Spesso ti dico che per me sei perfetta, non è una frase fatta ma è quello che penso veramente quando ti penso e penso a quello che sei e che fai per me. Infatti se dovessi scegliere la cosa che amo e apprezzo di più del nostro rapporto e di te non saprei che dire.</p>
+<p>Quando ci siamo conosciute non avrei mai pensato che saresti stata la persona per cui avrei provato un sentimento così intenso e forte, la cosa che mi sconvolge di più è che questa intensità è solo positiva, prima di te non potevo neanche immaginare come sarebbe stato provare un sentimento del genere, per questo ti ringrazio.</p>
+<p>Proprio per questo ho davvero paura di perderti, ho paura di poter rovinare tutto, so che non potresti essere tu a farlo perché sei davvero molto matura, non so come fai ma sai come comportarti in ogni situazione. Sei matura su tutti i punti di vista, penso sia a causa del tuo passato e delle situazioni che affronti ogni giorno senza mai parlarne anche se mi farebbe piacere supportarti e farti sfogare.</p>
+<p>Ho davvero molta stima di te anche se probabilmente non te l'ho mai detto. Sai che non sono molto brava a scrivere e ad esprimere i miei sentimenti però spero che apprezzerai l’impegno anche se non è perfetta. Ti amo.</p>
+<div class="firma">Diamante - 23/12/2025</div>
+</body>
+</html>

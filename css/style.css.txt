@@ -1,0 +1,10 @@
+body.secret-page { background-color: #8B0000; color: #FFB6C1; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.secret-container { text-align: center; }
+#secret-input { padding: 10px; font-size: 1em; margin: 10px 0; }
+button { padding: 10px 20px; font-size: 1em; cursor: pointer; }
+.error { color: yellow; margin-top: 10px; }
+
+body.main-page { background-color: #330000; color: #FFB6C1; font-family: sans-serif; margin:0; padding:20px;}
+nav { display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; justify-content:center; }
+nav a { color: #FFB6C1; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }

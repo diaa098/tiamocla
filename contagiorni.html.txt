@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contagiorni</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #330000;
+        color: #FFB6C1;
+        text-align: center;
+        padding: 50px;
+    }
+    h1 {
+        margin-bottom: 20px;
+    }
+    .count {
+        font-size: 48px;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+<h1>Oggi stiamo insieme da:</h1>
+<div class="count" id="daysCount"></div>
+
+<script>
+    const startDate = new Date('2025-03-16');
+    function updateCount() {
+        const now = new Date();
+        const diffTime = now - startDate;
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+        document.getElementById('daysCount').innerText = diffDays + " giorni";
+    }
+    updateCount();
+    setInterval(updateCount, 1000 * 60 * 60); 
+</script>
+</body>
+</html>
