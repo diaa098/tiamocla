@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Codice Segreto</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body class="secret-page">
+  <div class="secret-container">
+    <h1>Inserire il codice segreto</h1>
+    <input type="text" id="secret-input" placeholder="GGMMYYYY">
+    <button onclick="checkSecret()">Entra</button>
+    <p id="hint">Indizio: la nostra data</p>
+    <p id="error" class="error"></p>
+  </div>
+</body>
+</html>
